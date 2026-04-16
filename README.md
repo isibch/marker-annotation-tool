@@ -1,4 +1,4 @@
-# Marker Tool
+# Marker Annotation Tool
 
 Tool for extracting and annotating biological markers using the Human Protein Atlas (HPA).
 
@@ -49,10 +49,10 @@ markers.txt
 
 Example:
 
-BCL2
-CD20
-CA9
-HER2
+BCL2  
+CD20  
+CA9  
+HER2  
 
 Run:
 
@@ -64,7 +64,7 @@ marker-tool run markers.txt -o results.csv
 
 Example filenames:
 
-BCL2 (23) CB-T1.0 TMA AcpH9 07.07.2025 am Omnis.svs
+BCL2 (23) CB-T1.0 TMA AcpH9 07.07.2025 am Omnis.svs  
 CA 9 (307) CB-T1.0 TMA AcpH9 07.07.2025 am Omnis.svs
 
 Run:
@@ -81,15 +81,15 @@ marker-tool run slides_folder/ --recursive -o results.csv
 
 The resulting CSV contains the following columns:
 
-marker
-gene_symbol
-subcellular_localization
-whole_cell_segmentation
-hpa_entry
-gene_description
-comments
-raw_input
-source_filename
+marker  
+gene_symbol  
+subcellular_localization  
+whole_cell_segmentation  
+hpa_entry  
+gene_description  
+comments  
+raw_input  
+source_filename  
 
 Example:
 
